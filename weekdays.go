@@ -1,4 +1,4 @@
-package weekdays
+package hammertime
 
 import (
 	"time"
