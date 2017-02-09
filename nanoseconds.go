@@ -4,11 +4,11 @@ import (
 	"time"
 )
 
-func AddNanosecond(t time.Time) time.Time {
+func AddOneNanosecond(t time.Time) time.Time {
 	return AddNanoseconds(t, 1)
 }
 
-func SubNanosecond(t time.Time) time.Time {
+func SubOneNanosecond(t time.Time) time.Time {
 	return SubNanoseconds(t, 1)
 }
 

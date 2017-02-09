@@ -4,11 +4,11 @@ import (
 	"time"
 )
 
-func AddSecond(t time.Time) time.Time {
+func AddOneSecond(t time.Time) time.Time {
 	return AddSeconds(t, 1)
 }
 
-func SubSecond(t time.Time) time.Time {
+func SubOneSecond(t time.Time) time.Time {
 	return SubSeconds(t, 1)
 }
 
